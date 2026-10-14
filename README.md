@@ -58,6 +58,34 @@ network-intrusion-detection/
    model.evaluate()
    ```
 
+
+## ▶️ How to run the demo
+
+```bash
+# Clone the repo
+git clone https://github.com/ArjunKushwaha01/network-intrusion-detector.git
+cd network-intrusion-detector
+
+# Set up a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# (Re)generate the synthetic data
+python generate_data.py
+
+# Train the model
+python -m scripts.train
+
+# Evaluate – prints the classification report
+python -m scripts.eval
+
+# Produce the confusion‑matrix image (shown in this README)
+python scripts/plot_confusion.py
+
+
 ## Contributing
 
 Feel free to open issues or submit pull requests. Please keep the `data/raw/` directory out of version control.
