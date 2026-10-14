@@ -1,4 +1,5 @@
 # Network Intrusion Detection System
+<img width="808" height="680" alt="confusion_matrix" src="https://github.com/user-attachments/assets/c2b436c1-e9ae-4366-a71d-e00878bbebb1" />
 
 ## Project Overview
 
