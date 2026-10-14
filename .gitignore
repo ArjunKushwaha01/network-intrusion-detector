@@ -1,0 +1,18 @@
+# Python artefacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Virtual‑env folder – keep it out of the repo
+venv/
+# Model artefacts – they are binary and can be regenerated
+data/processed/model.joblib
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS‑specific files
+.DS_Store
+Thumbs.db
